@@ -1,1 +1,38 @@
-body { font-family: "Yantramanav" !important; overflow-x: hidden; }
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans:400,600,700,800|Raleway:400,600,700,800");
+body { font-family: 'Open Sans', sans-serif; overflow-x: hidden; }
+
+ul li { display: inline-block; list-style: none; }
+
+.slide { background-color: #173140; }
+
+header ul { padding-top: 0.5em; }
+
+header ul li { font-size: 1.2em; font-weight: 500; padding-right: 1em; }
+
+header ul li a { color: #173140; }
+
+header .header__menu ul { margin-left: -2em; }
+
+header img { margin-top: 0.5em; }
+
+header .login__menu { text-align: right; }
+
+header .login__menu li { color: #479DCE; padding-right: 0; }
+
+header .login__menu li a { color: #479DCE; }
+
+.slide { padding: 2em 0; }
+
+.slide h1 { font-family: 'Raleway', sans-serif; color: #ffffff; font-weight: 600; font-size: 2.5em; margin-bottom: 1em; width: 60%; }
+
+.slide .boton { margin-left: 2em; display: block; margin-bottom: 1em; width: 47%; }
+
+.slide .mundo { margin-left: 5em; }
+
+.boton { background-color: #F87604; border-radius: 5px; color: #ffffff; font-family: 'Comfortaa'; font-size: 1.3em; padding: 0.7em 3em; }
+
+.contenido .frase { background-image: url("../img/background-frase.jpg"); margin-top: 2em; padding: 2em 5em; }
+
+.contenido .frase p { color: #173140; font-size: 1.2em; font-weight: 600; width: 70%; }
+
+.contenido .frase h4 { color: #479DCE; font-size: 1.1em; font-weight: 800; text-decoration: underline; text-align: center; }

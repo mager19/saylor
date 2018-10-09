@@ -1,18 +1,125 @@
-// @import url('https://fonts.googleapis.com/css?family=Catamaran|Yantramanav');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans:400,600,700,800|Raleway:400,600,700,800');
 @import "_variables";
 @import "_mixins";
 
 // /*css*/
 
-// font-family: 'Catamaran', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Comfortaa', cursive;
 
 body{
-	font-family: 'Yantramanav'!important;
+	font-family: 'Open Sans', sans-serif;
 	overflow-x:hidden;
 }
 
-			
-		
+ul{
+	li{
+		display: inline-block;
+		list-style: none;
+	}
+}
+
+.slide{
+	background-color: $azulOscuro;
+}
+
+// Header
+header{
+	ul{	
+		padding-top: 0.5em;
+
+		li{
+			font-size: 1.2em;
+			font-weight: 500;
+			padding-right: 1em;
+
+			a{
+				color:$azulOscuro;
+			}
+		}
+	}
+
+	.header__menu{
+		ul{
+			margin-left: -2em;
+		}
+	}
+	
+	img{
+		margin-top: 0.5em;
+	}
+
+	.login__menu{
+		text-align: right;
+
+		li{
+			color:$azulClaro;
+			padding-right: 0;
+
+			a{
+				color:$azulClaro;
+			}
+
+		}
+	}
+}
+
+.slide{
+	padding: 2em 0;
+
+	h1{
+		font-family: 'Raleway', sans-serif;
+		color:$blanco;
+		font-weight: 600;
+		font-size: 2.5em;
+		margin-bottom: 1em;
+		width: 60%;
+	}
+
+	.boton{
+		margin-left: 2em;
+		display: block;
+		margin-bottom: 1em;
+		width: 47%;
+	}
+
+	.mundo{
+		margin-left: 5em;
+	}
+}
+
+.boton{
+	background-color: $naranja;
+	border-radius: 5px;
+	color:$blanco;
+	font-family: 'Comfortaa';
+	font-size: 1.3em;
+	padding: 0.7em 3em;
+}
+
+.contenido{
+	.frase{
+		background-image: url('../img/background-frase.jpg');
+		margin-top: 2em;
+		padding: 2em 5em;
+
+		p{	
+			color:$azulOscuro;
+			font-size: 1.2em;
+			font-weight: 600;
+			width: 70%;
+		}
+
+		h4{
+			color:$azulClaro;
+			font-size: 1.1em;
+			font-weight: 800;
+			text-decoration: underline;
+			text-align: center;
+		}
+	}
+}
 
 // MEDIA QUERIES
 
