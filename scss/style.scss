@@ -99,6 +99,8 @@ header{
 }
 
 .contenido{
+	padding-bottom: 3.5em;
+
 	.frase{
 		background-image: url('../img/background-frase.jpg');
 		margin-top: 2em;
@@ -119,7 +121,135 @@ header{
 			text-align: center;
 		}
 	}
+
+	h3{
+		color:$azulOtro;
+		font-size: 1.9em;
+		font-weight: 800;		
+	}
+
+	.freecertificates{
+		background-image: url(../img/back-certifica.jpg);
+		background-size: cover;
+		height: 190px;
+		padding-top:1em;
+		padding-left: 1em;
+		margin-top: 5em;
+
+	}
+
+	.college{
+		background-image: url(../img/back-college.jpg);
+		background-size: cover;
+		height: 190px;
+		padding-top:1em;
+		padding-left: 1em;
+		margin-top: 5em;
+
+	}
+
+	.back-key{
+		background-image: url(../img/back-key.jpg);
+		background-size: cover;
+		height: 190px;
+		padding-top:1em;
+		padding-left: 1em;
+		margin-top: 5em;
+	}
 }
+
+.socialBar{
+	background-color: $azulBarra;
+	color:$blanco;
+
+	.socialBar__menu--social{
+		ul{
+			margin-bottom: 0;
+		
+			li{ 
+				margin-right: 1em;
+				margin-top: 0.5em;
+							
+				a{
+					color:$blanco;
+					font-size: 2em;
+				}
+
+				&:first-child{
+					margin-top: 0;
+					margin-right: 0;
+					width: 20%;
+
+					img{
+						padding-bottom: 0.5em;
+						width: 70%;
+					}
+				}
+
+				&:nth-child(2){
+					border-left: 5px solid #fff;
+					padding-left: 2em;
+				}
+			}
+		}
+	}
+
+	.socialBar__menu{
+		ul{
+			padding-top: 1em;
+			text-align: right;
+			li{
+				margin-right: 1em;
+				a{
+					color:$blanco;
+					font-size: 1.3em;
+				}
+			}
+		}
+	}
+}
+
+footer{
+	background-color: $cafeOscuro;
+	color:$blanco;
+	font-size: 0.85em;
+	padding: 2em 0;
+
+	span{
+		color:#FFAD64;
+	}
+
+	.footer__menu{
+		ul{
+			margin-bottom: 0;
+			li{
+				border-right: 1px solid $blanco;
+				padding:0 10px;
+
+				a{
+					color:$blanco;
+					font-size: 1.4em;
+				}
+
+				&:last-child{
+					border:none;
+				}
+			}
+		}
+	}
+
+	.logofooter{
+		position: absolute;
+	    right: 5%;
+	    width: 100px;
+	    top:2%;
+	}
+
+}
+
+
+
+
 
 // MEDIA QUERIES
 
