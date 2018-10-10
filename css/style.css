@@ -1,4 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans:400,600,700,800|Raleway:400,600,700,800");
+/* The side navigation menu */
+.sidenav { height: 100%; /* 100% Full-height */ width: 0; /* 0 width - change this with JavaScript */ position: fixed; /* Stay in place */ z-index: 1; /* Stay on top */ top: 0; /* Stay at the top */ left: 0; background-color: #eee; overflow-x: hidden; /* Disable horizontal scroll */ padding-top: 60px; /* Place content 60px from the top */ transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */ }
+
+/* The navigation menu links */
+.sidenav a { padding: 8px 8px 8px 32px; text-decoration: none; font-size: 25px; color: #818181; display: block; transition: 0.3s; }
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover { color: #f1f1f1; }
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn { position: absolute; top: 0; right: 25px; font-size: 36px; margin-left: 50px; }
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main { transition: margin-left .5s; }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) { .sidenav { padding-top: 15px; }
+  .sidenav a { font-size: 18px; } }
+
 body { font-family: 'Open Sans', sans-serif; overflow-x: hidden; }
 
 ul li { display: inline-block; list-style: none; }
@@ -80,3 +99,68 @@ footer .footer__menu ul li a { color: #ffffff; font-size: 1.4em; }
 footer .footer__menu ul li:last-child { border: none; }
 
 footer .logofooter { position: absolute; right: 5%; width: 100px; top: 2%; }
+
+footer .socialBar__menu--social ul { margin-bottom: 0; }
+
+footer .socialBar__menu--social ul li { margin-right: 1em; margin-top: 0.5em; }
+
+footer .socialBar__menu--social ul li a { color: #ffffff; font-size: 2em; }
+
+footer .socialBar__menu--social ul li:first-child { margin-top: 0; margin-right: 0; width: 20%; }
+
+footer .socialBar__menu--social ul li:first-child img { padding-bottom: 0.5em; width: 70%; }
+
+footer .socialBar__menu--social ul li:nth-child(2) { border-left: 5px solid #fff; padding-left: 2em; }
+
+footer .socialBar__menu ul { padding-top: 1em; text-align: right; }
+
+footer .socialBar__menu ul li { margin-right: 1em; }
+
+footer .socialBar__menu ul li a { color: #ffffff; font-size: 1.3em; }
+
+@media screen and (max-width: 768px) { header { padding: 5px 0; }
+  header img { margin-left: 7em; width: 40%; }
+  .hamburger { background-color: #eee; border-radius: 5px; text-align: center; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; margin-top: 4px; }
+  .hamburger i { color: #898887; font-size: 1.5em; }
+  .slide { overflow: hidden; }
+  .slide h1 { width: 75%; }
+  .slide .boton { width: 60%; }
+  .slide .mundo { margin-left: -7em; }
+  .contenido .frase { padding: 2em 3em; }
+  .contenido .frase p { color: #173140; font-size: 1em; width: 100%; }
+  .contenido h3 { color: #235D7C; font-size: 1.5em; font-weight: 800; }
+  .contenido .freecertificates, .contenido .college, .contenido .back-key { height: 140px; }
+  .socialBar .socialBar__menu--social ul li:nth-child(2) { padding-left: 1em; }
+  .socialBar .socialBar__menu--social ul li { margin-right: 0.5em; }
+  .socialBar .socialBar__menu ul { margin-left: -3em; } }
+
+@media screen and (max-width: 480px) { header { padding: 5px 0; }
+  header img { margin-left: 1em; width: 60%; }
+  .hamburger { background-color: #eee; border-radius: 5px; text-align: center; padding-left: 10px; padding-right: 30px; padding-top: 5px; padding-bottom: 5px; margin-top: 4px; }
+  .hamburger i { color: #898887; font-size: 1.5em; }
+  .slide { padding-bottom: 1em; overflow: hidden; }
+  .slide h1 { z-index: 99999; font-size: 2em; width: 100%; position: relative; }
+  .slide img { width: 250px; }
+  .slide .boton { text-align: center; width: 70%; position: absolute; z-index: 999; }
+  .boton { font-size: 1.2em; padding: 0.5em 2em; }
+  .slide .mundo { margin-left: -7em; }
+  .contenido .frase { background-size: cover; }
+  .contenido .frase { padding: 2em; margin-right: 1em; }
+  .contenido .frase p { font-size: 1em; width: 100%; }
+  .contenido .frase h4 { font-size: 0.9em; }
+  .contenido .freecertificates, .contenido .college, .contenido .back-key { background-size: cover; height: 148px; }
+  .contenido h3 { font-size: 1.6em; }
+  .socialBar .socialBar__menu ul { text-align: center; }
+  footer p { font-size: 0.9em; }
+  footer .logofooter { top: -20%; }
+  footer .footer__menu { margin-top: 3em; }
+  footer .footer__menu ul li a { color: #ffffff; font-size: 1.2em; }
+  .socialBar .socialBar__menu ul { margin-left: -2em; }
+  .socialBar .socialBar__menu ul li { margin-right: 0.5em; }
+  .socialBar .socialBar__menu--social ul li:nth-child(2) { padding-left: 1em; }
+  .socialBar .socialBar__menu--social ul { margin-left: -2em; }
+  footer .footer__menu ul { margin-left: -3em; } }
+
+@media screen and (max-width: 320px) { .contenido .freecertificates, .contenido .college, .contenido .back-key { height: 149px; }
+  .socialBar .socialBar__menu--social ul li:nth-child(2) { padding-left: 1em; }
+  .socialBar .socialBar__menu ul { margin-left: -2em; } }

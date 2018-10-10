@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans:400,600,700,800|Raleway:400,600,700,800');
 @import "_variables";
 @import "_mixins";
+@import "_panel";
 
 // /*css*/
 
@@ -245,6 +246,52 @@ footer{
 	    top:2%;
 	}
 
+	.socialBar__menu--social{
+		ul{
+			margin-bottom: 0;
+		
+			li{ 
+				margin-right: 1em;
+				margin-top: 0.5em;
+							
+				a{
+					color:$blanco;
+					font-size: 2em;
+				}
+
+				&:first-child{
+					margin-top: 0;
+					margin-right: 0;
+					width: 20%;
+
+					img{
+						padding-bottom: 0.5em;
+						width: 70%;
+					}
+				}
+
+				&:nth-child(2){
+					border-left: 5px solid #fff;
+					padding-left: 2em;
+				}
+			}
+		}
+	}
+
+	.socialBar__menu{
+		ul{
+			padding-top: 1em;
+			text-align: right;
+			li{
+				margin-right: 1em;
+				a{
+					color:$blanco;
+					font-size: 1.3em;
+				}
+			}
+		}
+	}
+
 }
 
 
@@ -254,5 +301,228 @@ footer{
 // MEDIA QUERIES
 
 @media screen and (max-width: 768px){
+	
+	header{
+		padding: 5px 0;
+		img {
+	   		margin-left: 7em;
+	   		width: 40%;
+	   	}
+	}
 
+	.hamburger{
+		background-color: #eee;
+		border-radius: 5px;
+		text-align: center;
+		padding-left: 10px;
+	    padding-right: 10px;
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	    margin-top: 4px;
+
+		i{	
+			color: #898887;
+			font-size: 1.5em;
+		}
+	}
+
+
+	.slide{
+		overflow: hidden;
+	}
+
+	.slide h1 {
+    	width: 75%;
+	}
+
+	.slide .boton {
+    	width: 60%;
+	}
+
+	.slide .mundo {
+    	margin-left: -7em;
+	}
+
+	.contenido .frase {
+        padding: 2em 3em;
+	}
+
+	.contenido .frase p {
+    	color: #173140;
+    	font-size: 1em;
+       	width: 100%;
+	}
+
+	.contenido h3 {
+	    color: #235D7C;
+	    font-size: 1.5em;
+	    font-weight: 800;
+	}
+
+	.contenido .freecertificates, .contenido .college, .contenido .back-key {
+        height: 140px;
+	}
+
+	.socialBar .socialBar__menu--social ul li:nth-child(2) {
+    	padding-left: 1em;
+	}
+
+	.socialBar .socialBar__menu--social ul li {
+    	margin-right: 0.5em;
+	}
+
+	.socialBar .socialBar__menu ul {
+    	margin-left: -3em;
+	}
+
+
+}
+
+@media screen and (max-width: 480px){
+	header{
+		padding: 5px 0;
+		img {
+	   		margin-left: 1em;
+	   		width: 60%;
+	   	}
+	}
+
+	.hamburger{
+		background-color: #eee;
+		border-radius: 5px;
+		text-align: center;
+		padding-left: 10px;
+	    padding-right: 30px;
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	    margin-top: 4px;
+
+		i{	
+			color: #898887;
+			font-size: 1.5em;
+		}
+	}
+
+	.slide{
+		padding-bottom: 1em;
+		overflow: hidden;
+
+		h1 {
+		    z-index: 99999;
+		    font-size: 2em;
+		    width: 100%;
+		    position: relative;
+		}
+
+		img{
+			width: 250px;
+		}
+	}
+
+	.slide .boton {
+	    text-align: center;
+	    width: 70%;
+	    position: absolute;
+    	z-index: 999;
+	}
+	
+	.boton {
+	    font-size: 1.2em;
+	    padding: 0.5em 2em;
+	}
+
+	.slide .mundo {
+    	margin-left: -7em;
+	}
+
+	.contenido .frase {
+	 	background-size: cover;
+	}
+
+	.contenido{
+		.frase{
+			padding: 2em;
+			margin-right: 1em;
+				p {
+					font-size: 1em;
+					width: 100%;
+				}
+
+				h4{
+					font-size: 0.9em;
+				}
+			
+		}
+	}
+
+	.contenido .freecertificates, .contenido .college, .contenido .back-key{
+	    background-size: cover;
+	    height: 148px;
+	}
+	
+	.contenido h3{
+		font-size: 1.6em;
+	}
+
+	.socialBar .socialBar__menu ul {
+    	text-align: center;
+	}
+
+	footer{
+		p{
+			font-size: 0.9em;
+		}
+
+		.logofooter{
+			top:-20%;
+		}
+
+		.footer__menu {
+			margin-top: 3em;
+			ul {
+				li a {
+		    		color: #ffffff;
+		    		font-size: 1.2em;
+	    		}
+    		}
+    	}
+	}
+
+	.socialBar .socialBar__menu ul{
+		margin-left: -2em;
+	}
+
+	.socialBar .socialBar__menu ul li {
+    	margin-right: 0.5em;
+	}
+
+	.socialBar .socialBar__menu--social ul li:nth-child(2) {
+    	padding-left: 1em;
+	}
+
+	.socialBar .socialBar__menu--social ul {
+	    margin-left: -2em;
+	}
+
+	footer .footer__menu ul {
+        margin-left: -3em;
+	}
+
+}
+
+
+@media screen and (max-width: 320px){
+	.contenido .freecertificates, .contenido .college, .contenido .back-key{
+	    height: 149px;
+	}
+
+	.socialBar .socialBar__menu--social ul li:nth-child(2) {
+    	padding-left: 1em;
+	}
+
+	.socialBar .socialBar__menu ul {
+    	margin-left: -2em;
+	}
+
+	
 }
