@@ -118,6 +118,31 @@ footer .socialBar__menu ul li { margin-right: 1em; }
 
 footer .socialBar__menu ul li a { color: #ffffff; font-size: 1.3em; }
 
+/*******About********/
+.title__bar { border-top: 4px solid #499DCD; padding: 1em 0; }
+
+.title__bar h1 { color: #F87604; font-size: 2.5em; font-weight: 600; }
+
+.contenido__internas { background-color: #F5F5F5; padding: 1em 0; }
+
+.contenido__internas h2 { color: #479DCE; font-size: 1.5em; font-style: italic; margin-left: 35%; width: 30%; }
+
+.contenido__internas img { margin-left: 25%; margin-bottom: 1em; width: 50%; }
+
+.contenido__internas p { padding: 0.5em 0; }
+
+.contenido__internas blockquote { font-style: italic; text-align: center; }
+
+.contenido__internas h4 { font-size: 1em; font-style: italic; }
+
+.contenido__internas a { display: block; font-size: 0.9em; font-style: italic; text-decoration: underline; }
+
+.contenido__internas .about__item { background-color: #ffffff; border: 1px solid #454545; padding: 10px; margin-top: 2em; }
+
+.contenido__internas .about__item h3 { font-size: 1.2em; font-weight: 600; }
+
+.contenido__internas .about__item p { font-size: 1em; padding: 5px 0; margin: 0; margin-top: -10px; }
+
 @media screen and (max-width: 768px) { header { padding: 5px 0; }
   header img { margin-left: 7em; width: 40%; }
   .hamburger { background-color: #eee; border-radius: 5px; text-align: center; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; margin-top: 4px; }
