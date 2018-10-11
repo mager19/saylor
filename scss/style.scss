@@ -445,6 +445,13 @@ footer{
     	margin-left: -3em;
 	}
 
+	.contenido__internas{
+		h2{
+			margin-left: 27%;
+			width: 46%;
+		}
+	}
+
 
 }
 
@@ -577,6 +584,29 @@ footer{
 	footer .footer__menu ul {
         margin-left: -3em;
 	}
+
+	.title__bar{ 
+		padding: 0em;
+		h1 {
+		    font-size: 1.5em;
+		}
+	}
+
+	.contenido__internas {
+		h2 {
+		    font-size: 1.2em;
+		    margin-left: 0%;
+		    width: 100%;
+		}
+		p {
+		    padding: 0.5em 1em;
+		}
+
+		img {
+		    width: 100%;
+		}
+	}
+
 
 }
 

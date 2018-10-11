@@ -157,7 +157,8 @@ footer .socialBar__menu ul li a { color: #ffffff; font-size: 1.3em; }
   .contenido .freecertificates, .contenido .college, .contenido .back-key { height: 140px; }
   .socialBar .socialBar__menu--social ul li:nth-child(2) { padding-left: 1em; }
   .socialBar .socialBar__menu--social ul li { margin-right: 0.5em; }
-  .socialBar .socialBar__menu ul { margin-left: -3em; } }
+  .socialBar .socialBar__menu ul { margin-left: -3em; }
+  .contenido__internas h2 { margin-left: 27%; width: 46%; } }
 
 @media screen and (max-width: 480px) { header { padding: 5px 0; }
   header img { margin-left: 1em; width: 60%; }
