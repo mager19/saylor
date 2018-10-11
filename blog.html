@@ -170,10 +170,17 @@
 
 <div id="mySidenav" class="sidenav">
 	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	  <a href="#">About</a>
-	  <a href="#">Services</a>
-	  <a href="#">Clients</a>
-	  <a href="#">Contact</a>
+ 	<nav>
+		<ul>
+			<li><a href="#">Courses</a></li>
+			<li><a href="#">Programs</a></li>
+			<li class="padre"><a href="#">Help</a>
+				<ul><li><a href="#">Getting Started</a></li>
+				<li><a href="#">Discussion Forums</a></li>
+				<li><a href="">Help Center & FAQ</a></li></ul>
+			</li>
+		</ul>
+	</nav>
 </div>
 
 
@@ -186,7 +193,7 @@
     <script>
     /* Set the width of the side navigation to 250px */
 		function openNav() {
-		    document.getElementById("mySidenav").style.width = "250px";
+		    document.getElementById("mySidenav").style.width = "300px";
 		}
 
 		/* Set the width of the side navigation to 0 */

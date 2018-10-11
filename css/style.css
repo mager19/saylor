@@ -1,9 +1,29 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans:400,600,700,800|Raleway:400,600,700,800");
 /* The side navigation menu */
-.sidenav { height: 100%; /* 100% Full-height */ width: 0; /* 0 width - change this with JavaScript */ position: fixed; /* Stay in place */ z-index: 1; /* Stay on top */ top: 0; /* Stay at the top */ left: 0; background-color: #eee; overflow-x: hidden; /* Disable horizontal scroll */ padding-top: 60px; /* Place content 60px from the top */ transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */ }
+.sidenav { height: 90%; /* 100% Full-height */ width: 0; /* 0 width - change this with JavaScript */ position: fixed; /* Stay in place */ z-index: 1; /* Stay on top */ top: 0; /* Stay at the top */ left: 0; background-color: #F2F2F2; overflow-x: hidden; /* Disable horizontal scroll */ padding-top: 60px; /* Place content 60px from the top */ transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */ margin-top: 15.5%; }
+
+.sidenav nav { background-color: #ffffff; border: 1px solid #dcdcdc; border-radius: 5px; margin-left: 10%; width: 80%; }
+
+.sidenav nav ul { margin-left: -2.5em; }
+
+.sidenav nav ul li { border-bottom: 1px solid #dcdcdc; font-size: 0.8em; font-weight: 600; width: 100%; }
+
+.sidenav nav ul li a { color: #479DCE; }
+
+.sidenav nav ul li.padre { font-size: 0.8em; border-bottom: 0px; margin-left: -1em; }
+
+.sidenav nav ul li.padre a { color: #454545; }
+
+.sidenav nav ul li.padre ul { margin-left: -2em; }
+
+.sidenav nav ul li.padre ul li { font-size: 1em; width: 103%; }
+
+.sidenav nav ul li.padre ul li a { color: #479DCE; }
+
+.sidenav nav ul li.padre ul li:last-child { border: 0px; }
 
 /* The navigation menu links */
-.sidenav a { padding: 8px 8px 8px 32px; text-decoration: none; font-size: 25px; color: #818181; display: block; transition: 0.3s; }
+.sidenav a { padding: 8px 8px 8px 32px; text-decoration: none; font-size: 1.2em; color: #818181; display: block; transition: 0.3s; }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover { color: #f1f1f1; }
